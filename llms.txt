@@ -1,0 +1,10 @@
+# Blog dating 699 Hub
+> A modern consulting resource based in San Francisco, CA.
+
+## Site Index
+- [Home Page](/index.html): Portal overview for our services.
+- [About Us](/about.html): Our background and history.
+- [Contact](/contact.html): Office locations and communication form.
+## Publications
+- [Enterprise Static Site Architecture and Obfuscation Guide](/enterprise-static-site-architecture-and-obfuscation-guide.html)
+- [Scaling Workflows for Tech Companies](/scaling-workflows-for-tech-companies.html)
