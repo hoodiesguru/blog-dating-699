@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Serif:wght@400;600&display=swap');
+
+:root {
+    --mkfuh: hsl(108, 15%, 97%);
+    --xnfgv: hsl(108, 15%, 100%);
+    --uufzw: hsl(108, 10%, 15%);
+    --lanvg: hsl(108, 10%, 45%);
+    --kpsnz: hsl(108, 64%, 38%);
+    --lxrti: hsl(228, 65%, 45%);
+    --xhmdt: hsl(108, 15%, 88%);
+    --kkwoj: 0px;
+    --mmaot: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --nurpr: 'Inter', sans-serif;
+    --fnjtz: 'PT Serif', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--mkfuh);
+    color: var(--uufzw);
+    font-family: var(--fnjtz);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--kpsnz);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--lxrti);
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 900px;
+    background: var(--xnfgv);
+    border: 1px solid var(--xhmdt);
+    border-radius: var(--kkwoj);
+    padding: 40px;
+    box-shadow: var(--mmaot);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--nurpr);
+    margin-bottom: 20px;
+    color: var(--uufzw);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--kpsnz);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--xhmdt);
+    border-radius: var(--kkwoj);
+    font-family: var(--fnjtz);
+    font-size: 1rem;
+    background: var(--mkfuh);
+    color: var(--uufzw);
+}
+
+button {
+    background: var(--kpsnz);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--lxrti);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--xhmdt);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--lanvg);
+    text-align: center;
+}
